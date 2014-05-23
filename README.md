@@ -1,6 +1,7 @@
-******************************************
-* README - PP_RISK APPLICATION 
-******************************************
+
+*******************************
+* README - PP_RISK APPLICATION
+*******************************
 
 The PP_RISK application is based on the Model-View-Controller development pattern. It is built using PIP, an open-source application development framework similar to CodeIgniter for people who build web sites using PHP. The framework has a small footprint with broad compatibility and requires nearly zero configuration.
 
