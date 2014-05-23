@@ -7,9 +7,3 @@ RewriteRule . index.php [L]
 
 # Prevent file browsing
 Options -Indexes
-
-
-
-rewritemap lowercase int:tolower
-    RewriteCond $1 [A-Z]
-    RewriteRule ^/(.*)$ /${lowercase:$1} [R=301,L] 

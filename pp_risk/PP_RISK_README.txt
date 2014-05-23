@@ -1,5 +1,4 @@
 
-
 ******************************************
 * README - PP_RISK APPLICATION 
 ******************************************
@@ -13,7 +12,7 @@ The Controller serves as an intermediary between the Model, the View, and any ot
 
 
 Folder Structure
-****************
+*************
 1. Application:  All the PP_RISK application specific files go in the "application" folder.  Inside the application folder there are folders for all of the specific application entities:
 
 config
@@ -46,7 +45,7 @@ http://10.249.56.184/pp_risk/heatmap/infosec
 3. System: The PIP framework code is in the system folder can contained PIP framework information that can be ignored. Please DO NOT TOUCH it unless you need to do framework changes.
 
 URL Structure
-*************
+***********
 
 By default, URLs in PP_RISK are designed to be search-engine and human friendly. Rather than using the standard "query string" approach to URLs that is synonymous with dynamic systems, it uses a segment-based approach:
 
@@ -60,6 +59,12 @@ NOTES:
 
 2. mod-rewrite: It should be enabled in Apache configuration. It provides a flexible and powerful way to manipulate URLs. No query string approach is used to map the get requests for a cleaner approach.
 
-3. JSON: Please do ensure that the PHP version is JSON compatible. There a few Ajax calls that uses JSON for information exchange.
+3. JSON: Please do ensure that the PHP version is JSON compatible. There a few Ajax calls that uses JSON for information exchange. 
 
 4. PHP Version: The current PHP version that PP_RISK works as expected is PHP-5.3.10.
+
+
+
+
+
+

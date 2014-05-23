@@ -24,7 +24,6 @@ class Heatmap extends Controller {
 	function displayHeatmap($heatmapType) {
 		global $riskCategoryMap, $urlDbViewMap, $adjacenciesBubbleLink;
 
-		// Load a model
 		$db = $this->loadModel('pp_risk_model');
 		$result = $db->getPositionsForHeatmap($urlDbViewMap[$heatmapType]);
 		$heatmapRiskAry = array();

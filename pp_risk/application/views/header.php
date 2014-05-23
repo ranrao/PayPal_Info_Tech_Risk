@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/pp_risk/static/css/style.css" />
 
     <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script>window.jQuery || document.write("<script src='<?php echo BASE_URL; ?>static/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write("<script src='<?php echo BASE_URL; ?>static/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
 </head>
 <body>
