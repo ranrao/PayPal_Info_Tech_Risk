@@ -1,0 +1,185 @@
+/* Main CSS Styles */
+
+.wrapper {
+	height: 720px; 
+	width: 960px; 
+	border: none;
+	margin: 0 auto;
+	position: relative;
+}
+
+.heatmapTechnologyRisk {
+	background: url(../images/heatmap-TechnologyRisk.jpg) no-repeat center; 
+}
+
+.heatmapInfosecRisk {
+	background-image: url(../images/heatmap-InfosecRisk.jpg); 
+}
+
+.heatmapAdjacenciesRisk {
+	background-image: url(../images/heatmap-AdjacenciesRisk.jpg); 
+}
+
+footer {
+	text-align: center;
+	padding-right: 130px;
+}
+
+.heatmapTable {
+	position: absolute;
+	left: 155px;
+	top: 115px;
+	width: 670px;
+	height: 344px;
+}
+
+.heatmapCell{
+	width: 160px;
+	height: 86px;
+	position: relative;
+	margin: 0 1px;
+}
+
+.bubbleTable {
+	position: absolute;
+	width: 162px;
+	height: 86px;
+	color: black;
+	text-align: center;
+}
+
+.bubbleTable td {
+	width: 19%;
+	height: 50%;
+	/* border: 1px solid red; */
+	vertical-align: middle;
+}
+
+.bubbleTable a {
+	display:block;
+	overflow:hidden;
+	text-indent:-9999%;
+	white-space:nowrap;
+}
+
+.riskBubble-1 {
+	background: url(../images/riskBubble-1.gif) no-repeat center; 
+}
+
+.riskBubble-2 {
+	background: url(../images/riskBubble-2.gif) no-repeat center; 
+}
+
+.riskBubble-3 {
+	background: url(../images/riskBubble-3.gif) no-repeat center; 
+}
+
+.riskBubble-4 {
+	background: url(../images/riskBubble-4.gif) no-repeat center; 
+}
+
+.riskBubble-5 {
+	background: url(../images/riskBubble-5.gif) no-repeat center; 
+}
+
+.riskBubble-6 {
+	background: url(../images/riskBubble-6.gif) no-repeat center; 
+}
+
+.riskBubble-7 {
+	background: url(../images/riskBubble-7.gif) no-repeat center; 
+}
+
+.riskBubble-A {
+	background: url(../images/riskBubble-A.gif) no-repeat center;
+}
+
+.riskBubble-B {
+	background: url(../images/riskBubble-B.gif) no-repeat center;
+}
+
+.riskBubble-C {
+	background: url(../images/riskBubble-C.gif) no-repeat center;
+}
+
+.riskBubble-I {
+	background: url(../images/riskBubble-I.gif) no-repeat center;
+}
+
+.riskBubble-T {
+	background: url(../images/riskBubble-T.gif) no-repeat center;
+}
+
+.riskBubble-Y {
+	background: url(../images/riskBubble-Y.gif) no-repeat center;
+}
+
+.riskBubble-P {
+	background: url(../images/riskBubble-P.gif) no-repeat center;
+}
+
+.riskBubble-S {
+	background: url(../images/riskBubble-S.gif) no-repeat center;
+}
+
+.bubbleTable td {
+	background-size: 110%;
+}
+
+/* Risk Issues And Initiatives */
+.riskInfo {
+	position: absolute;
+	left: 830px;
+	top: 115px;
+	width: 570px;
+	height: 525px;
+}
+
+.riskInfoTable {
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	table-layout: fixed; 
+	border-spacing: 5px;
+	border-collapse: separate;
+	border-radius: 2px;
+	box-shadow: 1px 2px 5px #888888;
+	border: 1px solid #c3c3c3;
+}
+
+th, td {
+	width: 50%;
+}
+
+.riskInfoTable td {   
+	font-size: 14px; 
+	padding: 3px 5px; 
+	font-weight: bold;
+} 
+
+.riskInfoTable thead th {
+	height: 40px;
+	vertical-align: middle;
+	font-size: 22px;
+}
+
+.riskInfoTable thead tr {
+	height:40px;	
+}
+
+.riskInfoTable thead tr:first-child {
+	background-color: rgb(0, 60, 96);
+	color: white;
+}
+
+.riskInfoTable thead tr:nth-child(2) {
+	background-color: rgb(52, 116, 230);
+	color: black;
+}
+
+.riskInfoTable tr:nth-child(even) {
+	background: #C2DFFF;
+}
+.riskInfoTable tr:nth-child(odd) {
+	background: #EBEFFA;
+}

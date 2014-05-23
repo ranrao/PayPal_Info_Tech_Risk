@@ -1,0 +1,275 @@
+body {
+	background-color: #E9EAED;
+	height: 100%;
+}
+
+body div {
+	padding: .5%;
+}
+
+.scorecard-wrapper {
+	width: 1024px; 
+	border: none;
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid #D3D3D4;
+	background-color: white;
+	box-shadow: 0px 0px 20px 3px #D3D3D3;
+	border-radius: 4px;
+	padding-bottom: 0px;
+}
+
+#mainSection {
+	display : inline-block;
+	width:69%;
+	padding: 1%;
+	vertical-align: top;
+
+}
+
+#rightSection {
+	display : inline-block;
+	float:right;
+	width:30%;
+	padding: 1%;
+}
+
+#desc, #bottomSection {
+	display: table;
+	clear:both;
+	width:100%;
+	padding: 0 5px;
+}
+
+#bottomContent {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#title {
+	padding-bottom: 5px;
+}
+
+#riskName {
+	color: black;
+	font-weight: bold;
+}
+
+#owner {
+	padding: 10px 0;
+}
+
+#owner span:not(:first-child){
+	padding-left: 4%;
+}
+
+#desc .inDesc, #bottomContent div {
+	width: 32.5%;
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 10px 0 10px;
+	height: 100%;
+}
+
+#bottomContent div {
+	padding: 5px ;
+}
+
+#desc {
+	padding-left: 10px;
+}
+#desc ul, {
+	padding: 0 0 0 5px;
+	margin-left: 20px;
+}
+
+#desc li, #influencingFactors li {
+	list-style:disc;
+}
+
+h1, h3 {
+	color: rgb(0,112,192);
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.dataTable {
+	width: 100%;
+	margin: 6px 2px;
+}
+
+.dataTable:not(.metricsTbl) tr td:last-child {
+	text-align:center;
+}
+
+#riskRatingBox, #metricsBox, #riskStatementBox, #owner {
+	border-radius: 2px;
+	box-shadow: 1px 2px 5px #888888;
+	border: 1px solid #c3c3c3;
+	padding: 0 5px;
+	background-color: #f6f6f6;
+}
+
+#owner {
+	padding: 5px 0;
+	text-align:center;
+	margin: 10px 0;
+}
+
+#riskStatementBox h3 {
+	padding-top: 5px;
+}
+
+#riskRatingBox td {
+	padding: 4px 8px 4px 1px;
+}
+
+#riskRatingBox tr td:last-child {
+	font-weight: bold;
+}
+
+.metricsTbl tr td:first-child, .metricsTbl caption, #riskRatingBox caption, .riskSubTitle, #confidenceLevel {
+	color: rgb(0,112,192);
+	font-weight: bold;
+}
+
+.metricsTbl caption, #riskRatingBox caption{
+	text-align: left;
+	font-weight: bolder;
+	padding-bottom: 6px;
+	font-size: 14px;
+}
+
+.metricsTbl td {
+	padding: 3px 8px;
+}
+
+#influencingFactors {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 3%;
+	margin-top: 15px;
+}
+
+#keyInitiatives td { 
+	padding: 3px 6px; 
+}
+
+#currentResidualRiskRating {
+	font-weight: bold;
+}
+
+#keyInitiatives tr td:first-child,  #riskRatingBox tr td:first-child,  .metricsTbl tr td:first-child, .metricsTbl tr:last-child td {
+	white-space: nowrap;
+}
+
+#keyInitiatives tr td:first-child {
+	font-weight: bold;
+}
+
+.keyInitiativeStatus-watch, .riskRatingCode-2 {
+	color: rgb(255, 192, 0);
+}
+
+.keyInitiativeStatus-ontrack, .riskRatingCode-1 {
+	color: rgb(51, 201, 51);
+}
+
+#riskGraph img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+	max-height: 160px;
+	vertical-align: middle;
+}
+
+/* Risk Rating Color Codes */
+
+.riskRatingCode-1, .ontrack, .ipcode-decreasing {
+	color: #198c19;
+}
+
+.riskRatingCode-2, .watch {	
+	color: rgb(227, 222, 0);
+}
+
+.riskRatingCode-3 {
+	color: rgb(234, 139, 0);
+}
+
+.riskRatingCode-4, .notstarted, .ipcode-increasing {
+	color: rgb(255, 0, 0);
+}
+
+#currentResidualRiskRating {
+	color: rgb(0,112,192);
+	font-weight: bolder;
+}
+
+#currentResidualRiskRating ~ td:last-child {
+	border: 3px solid rgb(0,112,192);
+}
+
+.resRatingCode-1 {
+	background-color: #198c19;
+	color: white;
+}
+.resRatingCode-2 {
+	background-color: yellow;
+}
+
+.resRatingCode-3 {
+	background-color: orange;
+}
+
+.resRatingCode-4 {
+	background-color: red;
+}
+
+#confidenceLevel {
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+/* Optional Bottom logo Area */
+
+#riskLogo {
+	padding-bottom: 0px;
+}
+#riskLogo img {
+	text-align: left;
+    width: 45%;
+    height: auto;
+    float: right;
+}
+
+#bottomLogo {
+	width: 100%;
+}
+#bottomLogo td {
+	width: 30%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+

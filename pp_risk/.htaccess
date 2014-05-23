@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . index.php [L]
+</IfModule>
+
+# Prevent file browsing
+Options -Indexes
+
+
+
+rewritemap lowercase int:tolower
+    RewriteCond $1 [A-Z]
+    RewriteRule ^/(.*)$ /${lowercase:$1} [R=301,L] 

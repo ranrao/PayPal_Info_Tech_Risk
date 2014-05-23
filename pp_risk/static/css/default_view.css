@@ -1,0 +1,63 @@
+body {
+	background-color: #E9EAED;
+	height: 100%;
+	font-size: 13px;
+}
+
+body div {
+	padding: .5%;
+}
+
+.default-wrapper {
+	height: 720px;
+	width: 960px;
+	border: none;
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid #D3D3D4;
+	background-color: white;
+	box-shadow: 0px 0px 20px 3px #D3D3D3;
+	border-radius: 4px;
+}
+
+h1 {
+	color: rgb(0,112,192);
+	font-weight: bold;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.content {
+	padding: 20px;
+	height: 620px;
+}
+
+.content p {
+	text-align: center;
+}
+
+.heatmapList {
+	border-radius: 2px;
+	box-shadow: 1px 2px 5px #888888;
+	border: 1px solid #c3c3c3;
+	padding: 20px;
+	background-color: #f6f6f6;
+	margin: 20px 20%;
+}
+
+.heatmapList ul {
+	font-size: 14px;
+	text-align: center;
+}
+
+.heatmapList li {
+	font-weight: bold;
+	padding: 5px;
+}
+
+footer {
+	text-align: center;
+	padding: 2px;
+}
