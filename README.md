@@ -31,7 +31,7 @@ $config['db_password'] = ''; // Database password
 
 -- Controllers: Controllers are the driving force of a PP_RISK application. As seen in the URL structure, segments of the URL are mapped to a class and function. These classes are controllers stored in the "application/controller" directory. For example, the URL...
 
-http://10.249.56.184/pp_risk/heatmap/infosec
+http://example.com/pp_risk/heatmap/infosec
 ...would map to the following Controller with the filename heatmap.php and function infosec().
 
 -- Models: In PP_RISK, models are classes whose sole responsibility it is to deal with data from the archer database. There are several functions to retrieve heatmap and scorecard information from the database.
@@ -49,7 +49,7 @@ URL Structure
 
 By default, URLs in PP_RISK are designed to be search-engine and human friendly. Rather than using the standard "query string" approach to URLs that is synonymous with dynamic systems, it uses a segment-based approach:
 
-http://10.249.56.184/pp_risk/heatmap/infosec
+http://example.com/pp_risk/heatmap/infosec
 
 By default index.php is hidden in the URL. This is done using the .htaccess file in the root directory.
 
